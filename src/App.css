@@ -1,42 +1,17 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+src#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  color: #2c3e50;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.hover-grow:hover{
+  transform: scale(1.03);
+  filter: drop-shadow(0px 0px 6px white);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+/* .attack-cursor is intentionally supported but commented body cursor remains disabled */
+.attack-cursor{
+  cursor: url(https://media1.giphy.com/media/hs1iFyGUUxO9SOJ2WI/giphy.gif?cid=6c09b95287e7gigqlxqxyfrtzsm8n51fcz2v4e4q7vy9zo7z&rid=giphy.gif&ct=s), auto !important;
 }
